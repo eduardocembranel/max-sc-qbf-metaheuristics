@@ -1,0 +1,123 @@
+Set parameter Username
+Set parameter LicenseID to value 2696085
+Academic license - for non-commercial use only - expires 2026-08-17
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (mac64[arm] - Darwin 24.6.0 24G222)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Optimize a model with 241000 rows, 80600 columns and 641000 nonzeros
+Model fingerprint: 0x399dd1f4
+Variable types: 0 continuous, 80600 integer (80600 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e-02, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 7956.0600000
+Presolve removed 120748 rows and 406 columns
+Presolve time: 2.19s
+Presolved: 120252 rows, 80194 columns, 359440 nonzeros
+Variable types: 0 continuous, 80194 integer (80194 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   47513    5.0031424e+05   0.000000e+00   1.599638e+07      5s
+   50873    5.0032820e+05   0.000000e+00   1.764225e+07     10s
+   53993    5.0037742e+05   0.000000e+00   4.604103e+06     15s
+   56993    5.0038642e+05   0.000000e+00   6.203856e+06     20s
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   70634    5.0039319e+05   0.000000e+00   0.000000e+00     22s
+
+Root relaxation: objective 5.003932e+05, 70634 iterations, 19.46 seconds (34.82 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 500393.190    0 40458 7956.06000 500393.190  6189%     -   22s
+H    0     0                    16667.650000 500393.190  2902%     -   22s
+H    0     0                    42804.300000 500393.190  1069%     -   22s
+     0     0 495307.280    0 40424 42804.3000 495307.280  1057%     -   40s
+     0     0 492480.398    0 40304 42804.3000 492480.398  1051%     -   48s
+     0     0 485744.148    0 40479 42804.3000 485744.148  1035%     -   53s
+     0     0 481329.993    0 41178 42804.3000 481329.993  1024%     -   64s
+     0     0 476852.307    0 42044 42804.3000 476852.307  1014%     -  107s
+     0     0 476830.659    0 42059 42804.3000 476830.659  1014%     -  109s
+     0     0 470366.682    0 41709 42804.3000 470366.682   999%     -  171s
+     0     0 462873.184    0 41632 42804.3000 462873.184   981%     -  223s
+H    0     0                    42934.250000 455009.611   960%     -  280s
+     0     0 455009.611    0 41644 42934.2500 455009.611   960%     -  280s
+     0     0 448950.677    0 42551 42934.2500 448950.677   946%     -  356s
+H    0     0                    43001.640000 447081.260   940%     -  432s
+H    0     0                    44883.210000 447081.260   896%     -  432s
+H    0     0                    46336.800000 447081.260   865%     -  432s
+     0     0 447081.260    0 42867 46336.8000 447081.260   865%     -  432s
+H    0     0                    48582.800000 442025.197   810%     -  537s
+H    0     0                    49088.040000 442025.197   800%     -  537s
+H    0     0                    50851.110000 442025.197   769%     -  537s
+H    0     0                    51799.940000 442025.197   753%     -  537s
+H    0     0                    53269.530000 442025.197   730%     -  537s
+H    0     0                    53409.660000 442025.197   728%     -  537s
+H    0     0                    53547.580000 442025.197   725%     -  537s
+H    0     0                    53671.830000 442025.197   724%     -  537s
+H    0     0                    55166.230000 442025.197   701%     -  537s
+H    0     0                    55879.930000 442025.197   691%     -  537s
+H    0     0                    57485.420000 442025.197   669%     -  537s
+     0     0 442025.197    0 43871 57485.4200 442025.197   669%     -  537s
+H    0     0                    59461.040000 441762.445   643%     -  560s
+H    0     0                    59486.830000 441762.445   643%     -  560s
+H    0     0                    59544.620000 441762.445   642%     -  560s
+     0     0 441762.445    0 43925 59544.6200 441762.445   642%     -  560s
+     0     0 441742.096    0 43949 59544.6200 441742.096   642%     -  564s
+     0     0 441739.338    0 43960 59544.6200 441739.338   642%     -  565s
+H    0     0                    60189.000000 441739.338   634%     -  634s
+H    0     0                    61552.100000 441739.338   618%     -  634s
+H    0     0                    61592.460000 433354.436   604%     -  857s
+H    0     0                    63142.780000 433354.436   586%     -  857s
+H    0     0                    64046.970000 433354.436   577%     -  857s
+H    0     0                    65467.470000 433354.436   562%     -  857s
+H    0     0                    65720.330000 433354.436   559%     -  857s
+H    0     0                    65916.820000 433354.436   557%     -  857s
+H    0     0                    66021.240000 433354.436   556%     -  857s
+     0     0 433354.436    0 44574 66021.2400 433354.436   556%     -  857s
+     0     0 424004.331    0 44081 66021.2400 424004.331   542%     - 1036s
+     0     0 415060.162    0 43678 66021.2400 415060.162   529%     - 1242s
+     0     0 407167.028    0 43751 66021.2400 407167.028   517%     - 1477s
+     0     0 401484.373    0 44888 66021.2400 401484.373   508%     - 1729s
+     0     0          -    0      66021.2400 401484.373   508%     - 1800s
+
+Cutting planes:
+  Gomory: 2
+  Dual implied bound: 38
+  MIR: 2
+  Zero half: 4598
+  RLT: 14229
+  BQP: 21245
+
+Explored 1 nodes (381456 simplex iterations) in 1800.09 seconds (2018.28 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 10: 66021.2 65916.8 65720.3 ... 59544.6
+
+Time limit reached
+Best objective 6.602124000000e+04, best bound 4.014843725004e+05, gap 508.1140%
+
+=================================
+Best LB: 66021.24
+Best UB: 401484.3725
+Gap: 508.114%
+Runtime: 1800.10 seconds

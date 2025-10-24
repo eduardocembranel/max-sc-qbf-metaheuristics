@@ -1,0 +1,62 @@
+Set parameter Username
+Set parameter LicenseID to value 2696085
+Academic license - for non-commercial use only - expires 2026-08-17
+Set parameter TimeLimit to value 1800
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (mac64[arm] - Darwin 24.6.0 24G222)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Non-default parameters:
+TimeLimit  1800
+
+Optimize a model with 1000 rows, 350 columns and 2550 nonzeros
+Model fingerprint: 0x0e73001e
+Variable types: 0 continuous, 350 integer (350 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [1e-01, 5e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective -527.8000000
+Found heuristic solution: objective 21.2000000
+Presolve removed 536 rows and 25 columns
+Presolve time: 0.00s
+Presolved: 464 rows, 325 columns, 1339 nonzeros
+Variable types: 0 continuous, 325 integer (325 binary)
+
+Root relaxation: objective 1.768470e+03, 223 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1768.47000    0  164   21.20000 1768.47000  8242%     -    0s
+H    0     0                     166.4400000 1768.47000   963%     -    0s
+H    0     0                     781.8200000 1768.47000   126%     -    0s
+H    0     0                     874.2400000 1768.47000   102%     -    0s
+H    0     0                     993.9600000 1768.47000  77.9%     -    0s
+     0     0 1083.16833    0  239  993.96000 1083.16833  8.98%     -    0s
+     0     0 1082.33000    0  235  993.96000 1082.33000  8.89%     -    0s
+     0     0 1082.25571    0  235  993.96000 1082.25571  8.88%     -    0s
+H    0     0                    1004.7400000 1004.74000  0.00%     -    0s
+     0     0          -    0      1004.74000 1004.74000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 12
+  Dual implied bound: 2
+  MIR: 1
+  Zero half: 69
+  RLT: 212
+  BQP: 213
+
+Explored 1 nodes (836 simplex iterations) in 0.07 seconds (0.10 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 7: 1004.74 993.96 874.24 ... -527.8
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.004740000000e+03, best bound 1.004740000000e+03, gap 0.0000%
+
+=================================
+Optimal solution: 1004.74
+Runtime: 0.07 seconds
