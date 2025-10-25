@@ -1,0 +1,17 @@
+Executando GA na instância instances/max_sc_qbf/exact_n25.txt com População = 100, Taxa de Mutação = 0.01 por 1000 gerações
+Método de inicialização: Default
+gen=0 bestSolVal=826.16 t=0.009
+gen=5 bestSolVal=891.5699999999999 t=0.025
+gen=7 bestSolVal=915.93 t=0.032
+gen=9 bestSolVal=949.9899999999999 t=0.034
+gen=12 bestSolVal=962.04 t=0.037
+gen=13 bestSolVal=964.0899999999999 t=0.038
+gen=17 bestSolVal=971.8900000000001 t=0.042
+gen=20 bestSolVal=985.18 t=0.045
+gen=21 bestSolVal=993.96 t=0.046
+gen=24 bestSolVal=994.6899999999999 t=0.05
+gen=139 bestSolVal=997.0299999999999 t=0.155
+gen=156 bestSolVal=1004.7399999999999 t=0.169
+Set coverage = [7, 7, 8, 7, 9, 7, 5, 4, 7, 8, 7, 10, 11, 4, 9, 5, 8, 6, 8, 7, 6, 9, 6, 8, 7]
+maxVal = Solution: cost=[1004.7399999999999], size=[15], elements=[3, 4, 5, 9, 10, 11, 12, 14, 15, 16, 18, 19, 20, 21, 23]
+Time = 0.172 seg
