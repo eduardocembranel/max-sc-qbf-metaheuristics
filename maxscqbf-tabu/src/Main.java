@@ -28,7 +28,10 @@ public class Main {
 
         var fileName = "instances/" + instance + ".txt";
 
+        //tabu tenure
         int t1 = 10, t2 = 5;
+        //in case of std+int (intensification) tenure is null
+        //then in the constructor the value will be set proportionally with the instance size
 
         var stdOut = System.out;
 
@@ -56,7 +59,7 @@ public class Main {
                 solver.solve();
             } else if (method.equals("std+int")) {
                 printHeader(fileName, method);
-                var solver = new TSSCQBF(seed, target, t1, maxTimeSecs, false, fileName, false, true);
+                var solver = new TSSCQBF(seed, target, null, maxTimeSecs, false, fileName, false, true);
                 solver.solve();
             }
         } catch (FileNotFoundException e) {

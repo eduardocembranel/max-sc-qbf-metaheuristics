@@ -9,6 +9,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Random;
 
 import problems.Evaluator;
@@ -194,11 +195,15 @@ public abstract class AbstractTS<E> {
         this.rng = new Random(seed);
         this.target = target;
         this.ObjFunction = objFunction;
-        this.tenure = tenure;
         this.maxTimeSeconds = maxTimeSeconds;
         this.varfrequency = new int[objFunction.getDomainSize()];
         this.enableDiversification = enableDiversification;
         this.enableIntensification = enableIntensification;
+
+        //set tenure proportionally with the instance size when no tenure is provided
+        this.tenure = Objects.requireNonNullElseGet(
+                tenure, () -> (int) (0.1 * objFunction.getDomainSize())
+        );
     }
 
     /**
