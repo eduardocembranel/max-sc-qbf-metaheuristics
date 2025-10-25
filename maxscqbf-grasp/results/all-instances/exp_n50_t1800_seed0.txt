@@ -1,0 +1,7 @@
+Running for instance=../../instances/exp_n50.txt, maxTime=1800, seed=0, target=2244.87
+==========================================================================================
+(Iter. 1) (time: 0.02) BestSolCost = 2199.719999999999
+(Iter. 5) (time: 0.08) BestSolCost = 2222.7700000000004
+(Iter. 7) (time: 0.12) BestSolCost = 2233.3199999999993
+(Iter. 12) (time: 0.21) BestSolCost = 2244.87
+Cost: 2244.87, Size: 31, Time: 0.213s

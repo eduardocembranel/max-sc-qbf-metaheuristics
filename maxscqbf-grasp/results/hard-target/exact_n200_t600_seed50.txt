@@ -1,0 +1,5 @@
+Running for instance=../../instances/exact_n200.txt, maxTime=600, seed=50, target=22204.8585
+==========================================================================================
+(Iter. 1) (time: 1.53) BestSolCost = 22189.699999999935
+(Iter. 2) (time: 2.98) BestSolCost = 22270.16999999996
+Cost: 22270.16999999996, Size: 128, Time: 2.982s

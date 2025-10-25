@@ -1,0 +1,5 @@
+Running for instance=../../instances/normal_n50.txt, maxTime=1800, seed=0, target=2896.0
+==========================================================================================
+(Iter. 1) (time: 0.03) BestSolCost = 2803.520000000002
+(Iter. 2) (time: 0.05) BestSolCost = 2896.2600000000025
+Cost: 2896.2600000000025, Size: 30, Time: 0.049s

@@ -1,0 +1,7 @@
+Running for instance=../../instances/exact_n400.txt, maxTime=1800, seed=0, target=inf
+==========================================================================================
+(Iter. 1) (time: 41.00) BestSolCost = 72982.00000000022
+(Iter. 10) (time: 298.10) BestSolCost = 73020.68000000017
+(Iter. 13) (time: 393.38) BestSolCost = 73164.01000000037
+(Iter. 30) (time: 891.34) BestSolCost = 73283.45000000038
+Cost: 73283.45000000038, Size: 260, Time: 1810.832s

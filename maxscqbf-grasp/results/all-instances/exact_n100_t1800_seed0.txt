@@ -1,0 +1,4 @@
+Running for instance=../../instances/exact_n100.txt, maxTime=1800, seed=0, target=54155.0
+==========================================================================================
+(Iter. 1) (time: 0.05) BestSolCost = 54155.35999999996
+Cost: 54155.35999999996, Size: 100, Time: 0.050s
