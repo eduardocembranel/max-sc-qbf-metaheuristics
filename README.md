@@ -1,6 +1,6 @@
 # MAX-SC-QBF Metaheuristics
 
-This repository contains implementations of three metaheuristics — **GRASP**, **Tabu Search**, and **Genetic Algorithm (GA)** — for solving the **MAX-SC-QBF** (Maximize Set-Cover Quadratic Binary Function) problem.
+This repository contains implementations of three metaheuristics — **GRASP**, **Tabu Search**, and **Genetic Algorithm (GA)** — for solving the **MAX-SC-QBF** (Maximization of Quadratic Binary Function with Set Cover constraints) problem.
 
 Each method is implemented in a separate module, with its own documentation and usage instructions.
 
