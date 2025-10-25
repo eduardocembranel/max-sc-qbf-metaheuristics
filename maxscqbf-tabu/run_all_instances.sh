@@ -1,11 +1,11 @@
 source ./functions.sh
 
-#run_experiment "all-instances" "exact_n400" 1800 0
-#run_experiment "all-instances" "normal_n400" 1800 0
-#run_experiment "all-instances" "exp_n400" 1800 0
-#run_experiment "all-instances" "normal_n200" 1800 0
-#run_experiment "all-instances" "exact_n200" 1800 0
-#run_experiment "all-instances" "exp_n200" 1800 0
+run_experiment "all-instances" "exact_n400" 1800 0
+run_experiment "all-instances" "normal_n400" 1800 0
+run_experiment "all-instances" "exp_n400" 1800 0
+run_experiment "all-instances" "normal_n200" 1800 0
+run_experiment "all-instances" "exact_n200" 1800 0
+run_experiment "all-instances" "exp_n200" 1800 0
 
 # for smaller instances that we know the optimal value, we can set the target
 # to stop the heuristic when the optimal value is found

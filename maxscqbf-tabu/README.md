@@ -1,4 +1,4 @@
-# MAX-SC-QBF Solver
+# Tabu Search
 
 This project implements five methods of Tabu Search variations to solve the **MAX-SC-QBF** problem
 
@@ -13,7 +13,26 @@ This project implements five methods of Tabu Search variations to solve the **MA
 javac -d out $(find src -name "*.java")
 ```
 
-## Run
+## Run experiments
+
+To run the `intensification` heuristic along all the instances
+```bash
+./run_all_instances.sh
+````
+
+To run `intensification` heuristic with an spectific target with 50 independent executions for the instance `exact_n200`, in order to have empirical data for later analasys
+```
+# With an "easy" target
+./run_easy_target.sh
+
+# With an "medium" target
+./run_easy_target.sh
+
+# With an "hard" target
+./run_easy_target.sh
+```
+
+## Run for a single instance
 
 ```
 java -cp out Main <instance_name> <method>

@@ -1,22 +1,38 @@
-# MAX-SC-QBF Solver
+# Genetic Algorithms
 
 This project implements Genetic Algorithm's variations to solve the **MAX-SC-QBF** problem.
 
 ## Requirements
 
-- Java JDK 24+
-- Unix based operational system or Windows
+- Java JDK 17+
+- Unix based operational system
 
-## Run (for a single instance)
+## Run experiments
+
+To run the `standard` heuristic along all the instances
+```bash
+./run_all_instances.sh
+````
+
+To run `standard` heuristic with an spectific target with 50 independent executions for the instance `exact_n200`, in order to have empirical data for later analasys
+```
+# With an "easy" target
+./run_easy_target.sh
+
+# With an "medium" target
+./run_easy_target.sh
+
+# With an "hard" target
+./run_easy_target.sh
+```
+
+## Run for a single instance
 
 To run the algorithm, use the command below with the desired parameters:
 
 ```
-JAVA_APP_PATH="src/problems/qbf/solvers/GA_QBF_SC.java"
-java $JAVA_APP_PATH --instance <file name> --generations 1000 --popSize 100 --mutation 0.01 --useLHS false --useUC false --timeLimit 1800
+java -cp out problems.qbf.solvers.GA_QBF_SC --instance <file path> --seed <seed> --generations <maximum generations> --popSize <population size> --mutation <mutation rate> --useLHS <true|false> --useUC <true|false> --timeLimit <time limit seconds> > "$output_file"
 ```
-
-> Replace `<file name>` with the path to the instance file you want to solve. The availables instances are stored in the path `./instances/max_sc_qbf`
 
 ## Run (for all instances with predefined parameter settings)
 
